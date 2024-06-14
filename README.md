@@ -1,5 +1,5 @@
 # Geen WiFi in de Trein (GWIDT)
-A tool with ARP spoofing, DNS spoofing and SSL stripping capabilities on local networks. 
+A tool with ARP spoofing, DNS spoofing and SSL stripping capabilities on local networks. Prevents the victim from upgrading his connection to the target domain from HTTP to HTTPS.
 
 ## Hardware and Software Requirements
 
@@ -34,6 +34,7 @@ All available options and their purpose will be displayed by entering the `-h/--
 * No IPv6 support.
 * HSTS must be disabled on the victim's machine.
 * SSL stripping works for a single target domain at a time.
+* No passthrough of victim's other (uninteresting) traffic
 
 <br><br>
 ***This project is licensed under the terms of the MIT license.***
